@@ -24,6 +24,7 @@ o Any peer is allowed to work on generating a valid block, and once a valid bloc
 o Each block contains a link to the previous valid block, allowing us to traverse the full history of all recorded transactions in the network.
 4.Peers listen for new block announcements and merge them into their ledgers.
 o Inclusion of the transaction in a block acts as a "confirmation" of that transaction, but that fact alone does not "finalize" any transaction. Instead, we rely on the length of the chain as a proxy for "safety" of the transaction. Each participant can choose their own level of risk tolerance, ranging from 0-confirmation transactions to waiting for any arbitrary number of blocks.
+
 Functionalities:
 
 -Transfer value:
